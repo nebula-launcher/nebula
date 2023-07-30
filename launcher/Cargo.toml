@@ -1,0 +1,20 @@
+[package]
+name = "launcher"
+description = "Core code used inside of Nebula"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+dioxus.workspace = true
+dioxus-std.workspace = true
+dioxus-desktop.workspace = true
+log = "0.4.19"
+tokio = { version = "1.29.1", features = ["full"] }
+
+[package.metadata.bundle]
+name = "Nebula Launcher"
+identifier = "live.shuuyu.nebula"
+version.workspace = true
+copyright = "Copyright (c) Nebula Launcher 2023. All Rights Reserved."

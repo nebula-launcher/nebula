@@ -1,0 +1,10 @@
+[package]
+name = "astral-ui"
+description = "A UI library that doesn't make your eyes bleed."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+dioxus.workspace = true

@@ -1,2 +1,3 @@
 # nebula
-placeholder description :0
+Nebula is a Minecraft Launcher specifically made for both performance and customization.
+

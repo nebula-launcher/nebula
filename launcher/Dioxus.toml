@@ -1,0 +1,4 @@
+[application]
+name = "nebula"
+default_platform = "desktop"
+asset_dir = "assets"

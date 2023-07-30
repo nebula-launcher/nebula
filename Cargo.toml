@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "crates/*",
+    "launcher"
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.70"
+repository = "https://github.com/nebula-launcher/nebula"
+
+[workspace.dependencies]
+dioxus = "0.3.2"
+dioxus-std = "0.2.1"
+dioxus-desktop = "0.3.0"
